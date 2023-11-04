@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfilx Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gabarito&family=Poppins&family=Raleway&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Netfilxcss.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="left">
+            <div class="header-img">
+                <img src="javafolder/logo.jpg" alt="">
+            </div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">MyList</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="nav1">
+                <li id="item1"><a href="#"><img src="javafolder/search.jpg" alt=""></a></li>
+                <li id="item2"><a href="#">DVD</a></li>
+                <li id="item3"><a href="#"><img src="javafolder/gift.jpg" alt=""></a></li>
+                <li id="item4"><a href="#"><img src="javafolder/bell.jpg" alt=""></a</li>
+                <li id="item5"><a href="#"></a>
+                    <select name="" id="option">
+                        <option value="emoji" selected><img src="javafolder/emoji.jpg" alt="" width="40px"
+                                height="50px"></option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="trending">
+        <h2>Trending Now</h2>
+        <ul class="movies">
+            <li class="item"><a href="#"><img src="javafolder/m1.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m2.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m3.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m4.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m5.jpg"></a></li>
+        </ul>
+    </section>
+    <section class="Top">
+        <h2>Top 10 in India Today</h2>
+        <ul class="movies">
+            <li class="item"><a href="#"><img src="javafolder/m6.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m7.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m8.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m9.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/m10.jpg"></a></li>
+        </ul>
+    </section>
+    <section class="Tv Shows">
+        <h2>Golden Global Award-Winning TV Shows</h2>
+        <ul class="movies">
+            <li class="item"><a href="#"><img src="javafolder/s1.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/s2.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/s3.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/s4.jpg"></a></li>
+            <li class="item"><a href="#"><img src="javafolder/s5.jpg"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
